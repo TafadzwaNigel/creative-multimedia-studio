@@ -25,13 +25,12 @@ body{
 
 
 .BOXPictureGallery{
-    transform: translate(30%,-8%);
     justify-items: center;
     margin-right: 0%;
     margin-bottom: 5%;
     height:15.5cm;
     max-width: 600px;
-    background-color: rgba(000, 000, 000, 0.35);
+    background-color: rgba(000, 000, 000, 0.55);
 }
 .mySlides{
     display: none;
@@ -76,8 +75,9 @@ img{
     color: white;
 }
 
-.cellNo{
+. Contact{
     color: white;
+margin-bottom: 1cm;
 }
 .dot{
     cursor: pointer;
