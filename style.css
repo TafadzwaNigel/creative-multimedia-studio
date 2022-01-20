@@ -1,0 +1,127 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    background-image: url("background.jpg");
+    background-repeat:repeat;
+}
+.BOXmain{
+    width: 65%;
+    display:block;
+    margin-top: 0.5cm;
+   
+}
+
+.BOXWelcome{
+    
+    max-width: 18cm;
+    margin-top: 0.2cm;
+    height: auto;
+    transform: translate(-10%,-50%);
+    margin-left: auto;
+    background-color: rgba(000, 000, 000, 0.35);
+}
+
+
+.BOXPictureGallery{
+    transform: translate(30%,-8%);
+    justify-items: center;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    height:15.5cm;
+    max-width: 600px;
+    background-color: rgba(000, 000, 000, 0.35);
+}
+.mySlides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width:  auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px   0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(000, 000, 000, 0.8);
+}
+img{
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 10cm;
+    max-height: 14cm;
+    margin-bottom: 4%;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: wheat;
+    
+
+}
+.Links{
+    color: white;
+}
+
+.cellNo{
+    color: white;
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{ opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from{opacity: .4;}
+    to {opacity: 1;}
+}
+.Paragraph{
+    transform: translate(0%,0%);
+    margin-right: 0.75cm;
+    color: white;
+    width: 5cm;
+    height:auto;
+    background-color: rgba(000, 000, 000, 0.35);
+}
+.SideBar{
+    background-image: url("CR0.jpg");
+    background-position:center;
+    background-size: cover;
+    display:list-item;
+    width: 45%;
+    margin-left: 1cm;
+    margin-right: 0.75cm;
+    margin-bottom: 0;
+    width:6.5cm;
+}
