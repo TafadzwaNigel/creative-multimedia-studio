@@ -15,10 +15,10 @@ body{
 
 .BOXWelcome{
     
-    max-width: 18cm;
+    max-width: auto;
     margin-top: 0.2cm;
     height: auto;
-    transform: translate(-10%,-50%);
+    transform: translate(-10%,-30%);
     margin-left: auto;
     background-color: rgba(000, 000, 000, 0.35);
 }
@@ -118,10 +118,10 @@ margin-bottom: 1cm;
     background-image: url("CR0.jpg");
     background-position:center;
     background-size: cover;
+    background-repeat: no-repeat
     display:list-item;
     width: 45%;
     margin-left: 1cm;
     margin-right: 0.75cm;
     margin-bottom: 0;
-    width:6.5cm;
 }
